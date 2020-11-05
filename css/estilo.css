@@ -173,16 +173,24 @@ a:hover {
 
 .sinopse h2,
 .cenas h2,
-.elenco h2 {
+.trilha h2 {
   font-family: romolo regular;
   color: white;
   margin-bottom: 1.2em;
   font-size: 2em;
 }
 
+.elenco h2 {
+  font-family: romolo regular;
+  color: white;
+  margin-bottom: 0em;
+  font-size: 2em;
+}
+
 .cenas,
 .sinopse,
-.elenco {
+.elenco,
+.trilha {
   position: relative;
 }
 
@@ -219,14 +227,9 @@ a:hover {
   color: black;
 }
 
-.elenco {
+.elenco .trilha {
   padding: 4em;
   min-height: 100vh;
-}
-
-.cenas,
-.elenco {
-  position: relative;
 }
 
 .cenas:after {
@@ -323,7 +326,7 @@ a:hover {
 }
 
 .table {
-  padding: 10px;
+  padding: 4em;
 }
 .personagens {
   width: 80%;
@@ -341,17 +344,27 @@ td {
   font-size: 0.9em;
 }
 
-.musics {
-  padding: 10px;
+.trilha,
+.elenco {
+  padding: 4em;
 }
-.playlist {
-  margin-left: 44em;
+
+.trilha {
+  margin-bottom: 1.2em;
 }
 
 @media (min-width: 600px) {
-  .table .playlist {
+  .table .trilha {
     float: right;
   }
+}
+
+.fim img {
+  width: 35%;
+  padding-top: 2%;
+  margin-right: 20em;
+  margin-left: 20em;
+  position: center;
 }
 
 .copy {
