@@ -312,14 +312,6 @@ a:hover {
   transition: transform 500ms;
 }
 
-/* .img-portfolio:hover {
-  transform: scale(1.2) rotate(-2deg);
-} */
-
-/*.contato .icons {
-  text-align: center;
-}*/
-
 .saiba a {
   color: white;
   font-size: 3.5em;
@@ -372,4 +364,5 @@ td {
   font-size: 0.5em;
   font-family: romolo regular;
   margin-top: 1em;
+  padding: 1%;
 }
