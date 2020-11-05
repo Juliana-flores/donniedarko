@@ -374,7 +374,7 @@ td {
 }
 
 @media (min-width: 600px) {
-  .table .trilha {
+  .table .trilha .playlist {
     float: right;
   }
 }
