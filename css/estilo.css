@@ -111,7 +111,7 @@ header {
 }
 
 .site-title:after {
-  color: whitesmoke;
+  color: white;
   content: "|";
   opacity: 1;
   animation: pisca 0.7s infinite;
@@ -171,17 +171,9 @@ a:hover {
   min-height: 100vh;
 }
 
-/*@media (min-width: 1200px) {
-  .container {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1200px;
-  }
-}*/
-
 .sinopse h2,
 .cenas h2,
-.saiba h2 {
+.elenco h2 {
   font-family: romolo regular;
   color: white;
   margin-bottom: 1.2em;
@@ -190,7 +182,7 @@ a:hover {
 
 .cenas,
 .sinopse,
-.saiba {
+.elenco {
   position: relative;
 }
 
@@ -204,10 +196,11 @@ a:hover {
   margin-right: 10%;
   text-align: justify;
   color: white;
+  font-family: romolo regular;
 }
 
 .trailer {
-  margin-left: 30em;
+  margin-left: 1em;
 }
 @media (min-width: 600px) {
   .sinopse .trailer {
@@ -215,19 +208,24 @@ a:hover {
   }
 }
 
-@media (min-width: 600px) {
-  .sobre .avatar {
-    float: right;
-  }
+.sinopse a {
+  color: #696969;
+  text-decoration: underline;
 }
 
-.saiba {
+.sinopse a:hover {
+  background-color: white;
+  text-decoration: none;
+  color: black;
+}
+
+.elenco {
   padding: 4em;
   min-height: 100vh;
 }
 
 .cenas,
-.saiba {
+.elenco {
   position: relative;
 }
 
@@ -312,57 +310,56 @@ a:hover {
   transition: transform 500ms;
 }
 
-.saiba a {
+.elenco a {
   color: white;
   font-size: 3.5em;
   transition: text-shadow 1s;
 }
 
-.saiba a:active,
-.saiba a:hover {
+.elenco a:active,
+.elenco a:hover {
   text-decoration: none;
   text-shadow: 0px 0px 10px white;
 }
 
 .table {
+  padding: 10px;
+}
+.personagens {
   width: 80%;
 }
 th,
 td {
   border: 1px solid white;
-  height: 70%;
-  width: 70%;
+  height: 50%;
+  width: 50%;
   border-collapse: collapse;
   color: white;
-  text-align: center;
-  padding: 15px;
+  padding: 5px;
   text-align: left;
   font-family: romolo regular;
-  font-size: 1em;
+  font-size: 0.9em;
 }
 
-.playlist {
-  margin-left: 43em;
+.musics {
+  padding: 10px;
 }
+.playlist {
+  margin-left: 44em;
+}
+
 @media (min-width: 600px) {
   .table .playlist {
     float: right;
   }
 }
 
-.rodape {
-  border-top: 2px solid white;
-  background-color: black;
-  background-size: auto 100vh;
-  position: static;
-  margin-top: 1em;
-}
-
-.assinatura {
-  text-align: center;
-  color: white;
-  font-size: 0.5em;
+.copy {
+  width: 100%;
+  background: white;
+  font-size: 0.8em;
   font-family: romolo regular;
-  margin-top: 1em;
-  padding: 1%;
+  text-align: justify;
+  text-indent: 1.2em;
+  padding: 20px 0;
 }
