@@ -326,7 +326,17 @@ a:hover {
 }
 
 .table {
-  padding: 4em;
+  padding: 1.2em;
+}
+
+.elenco p {
+  text-indent: 1.2em;
+  margin-bottom: 1.2em;
+  margin-right: 10%;
+  text-align: justify;
+  padding-top: 2em;
+  color: white;
+  font-family: romolo regular;
 }
 .personagens {
   width: 80%;
@@ -351,6 +361,16 @@ td {
 
 .trilha {
   margin-bottom: 1.2em;
+}
+
+.trilha p {
+  text-indent: 1.2em;
+  margin-bottom: 1.2em;
+  margin-right: 10%;
+  text-align: justify;
+  padding-top: 1em;
+  color: white;
+  font-family: romolo regular;
 }
 
 @media (min-width: 600px) {
