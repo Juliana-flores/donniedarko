@@ -377,7 +377,7 @@ td {
 .trilha p {
   text-indent: 1.2em;
   margin-bottom: 1.2em;
-  margin-right: 20em;
+  margin-right: 0;
   text-align: justify;
   padding-top: 1em;
   color: white;
@@ -391,11 +391,11 @@ td {
   margin-bottom: 1.2em;
 }
 
-@media (min-width: 600px) {
+/*@media (min-width: 600px) {
   .table .playlist {
     float: right;
   }
-}
+}*/
 
 /*.fim img {
   width: 30%;
