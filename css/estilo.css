@@ -347,14 +347,14 @@ a:hover {
 .elenco p {
   text-indent: 1.2em;
   margin-bottom: 1.2em;
-  margin-right: 10%;
+  margin-right: 0;
   text-align: justify;
   padding-top: 2em;
   color: white;
   font-family: romolo regular;
 }
 .personagens {
-  width: 80%;
+  width: 100%;
 }
 th,
 td {
@@ -364,7 +364,7 @@ td {
   border-collapse: collapse;
   color: white;
   padding: 5px;
-  text-align: left;
+  text-align: center;
   font-family: romolo regular;
   font-size: 0.9em;
 }
