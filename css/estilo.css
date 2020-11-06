@@ -391,13 +391,6 @@ td {
   margin-bottom: 1.2em;
 }
 
-/*.playlist {
-  width: 40%;
-  padding-top: 5%;
-  margin-right: 40em;
-  margin-left: 1.2em;
-}*/
-
 @media (min-width: 600px) {
   .table .playlist {
     float: right;
