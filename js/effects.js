@@ -1,5 +1,5 @@
 const phrase =
-    "28:06:42:12";
+    "Donnie Darko ⏪ 28:06:42:12 ⏩";
 const element = document.querySelector(".site-title");
 for (let i = 0; i < phrase.length; i++) {
     setTimeout(() => {
