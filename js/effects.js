@@ -1,5 +1,5 @@
 const phrase =
-    "Donnie Darko ⏪ 28:06:42:12 ⏩";
+    "Destruction is a form of creation.";
 const element = document.querySelector(".site-title");
 for (let i = 0; i < phrase.length; i++) {
     setTimeout(() => {
